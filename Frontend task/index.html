@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Assesment L2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="product-images">
+            <img id="mainImage" src="images/1.jpeg" alt="Main Image" class="main-image">
+            <div class="thumbnails">
+                <img src="images/2.jpeg" alt="Thumbnail" class="thumbnail selected">
+                <img src="images/3.jpeg" alt="Thumbnail" class="thumbnail">
+                <img src="images/4.jpeg" alt="Thumbnail" class="thumbnail">
+                <img src="images/5.jpeg" alt="Thumbnail" class="thumbnail">
+            </div>
+        </div>
+        <div class="details">
+            <span class="main">Marmeto</span>
+            <h1>Embrace Sideboard</h1>
+            <hr>
+            <div class="price">
+                <span class="discounted-price">$12999.00</span>
+                <span class="discount">35% Off</span>
+            </div>
+            <span class="original-price">$19999.00</span>
+            <div class="options">
+                <div class="option">
+                    <label>Choose a Color</label>
+                    <div class="colors">
+                        <div class="color beige selected"></div>
+                        <div class="color green"></div>
+                        <div class="color purple"></div>
+                        <div class="color pink"></div>
+                        <div class="color red"></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="option">
+                    <label>Choose a Size</label>
+                    <div class="sizes">
+                        <div class="size selected">S</div>
+                        <div class="size">M</div>
+                        <div class="size">L</div>
+                        <div class="size">XL</div>
+                        <div class="size">XXL</div>
+                    </div>
+                </div>
+            </div>
+            <div class="quantity">
+                <button id="decreaseQty">-</button>
+                <span id="quantity">0</span>
+                <button id="increaseQty">+</button>
+                <button id="add-to-cart">Add to Cart</button>
+
+            </div>
+            <div class="line">
+                <p id="para" class="hide">Embrace sideboard with color yellow and sizes small added to cart</p>
+            </div>
+            <hr>
+            <p class="description">
+                The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and
+                look great, this storage solution is both functional and attractive. It fits seamlessly into any home
+                decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style,
+                durability, and reliability.
+            </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
